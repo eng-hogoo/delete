@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+}
+body{
+    background-color: black;
+}
+.form{
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 5px 20px;
+}
+input{ padding: 0px 10px 0px 10px;
+    height: 40px;
+    width: 350px;
+    outline: none    ;
+    font-size: 20px;
+    border-radius:9px ;
+    -webkit-border-radius:9px ;
+    -moz-border-radius:9px ;
+    -ms-border-radius:9px ;
+    -o-border-radius:9px ;
+    outline: none;
+    border: none;
+}
+.add,.delete{
+    margin-left: 10px;
+    width: fit-content;
+    background-color: brown;
+    font-size: 20px;
+    color:white;
+    outline:none ;
+    cursor: pointer;
+}
+
